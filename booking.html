@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seat Booking - University Transport</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>University Transport Management System</h1>
+        <section id="seat-booking">
+            <h2>4 PM Bus Seat Booking</h2>
+            <div class="bus-seats">
+                <!-- 20 seats as buttons for booking -->
+                <button class="seat" data-seat="1">1</button>
+                <button class="seat" data-seat="2">2</button>
+                <!-- Continue for 20 seats -->
+            </div>
+            <button id="book-seat">Book Selected Seat</button>
+            <p id="booking-status"></p>
+        </section>
+
+        <section id="missed-bus">
+            <h2>Missed the 4 PM Bus?</h2>
+            <button id="notify-next-bus">Notify Next Bus</button>
+            <p id="notification-status"></p>
+        </section>
+
+        <a href="queries.html">Have a Query?</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
